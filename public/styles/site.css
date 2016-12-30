@@ -9,3 +9,10 @@ body{
     -moz-box-shadow: 1px 1px 1px #999;
     -webkit-box-shadow: 1px 1px 1px #999;
 }
+
+#planet{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 0px 15px 15px 0px;
+}

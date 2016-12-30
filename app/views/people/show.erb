@@ -3,10 +3,10 @@
 		<div class="panel panel-default">
 			<div class="panel-heading">Person</div>
 			<div class="panel-body">
-				<p><b>Name:</b>&nbsp;<%= @person.first_name %>&nbsp;<%= @person.last_name %></p>
-				<p><b>Birthdate:</b>&nbsp;<%= @person.birthdate.strftime("%m/%d/%Y") %></p>
+				<p><img id="planet" src="../images/planets/<%= @birth_path_num %>.png"/><b>Name:</b>&nbsp;<%= @person.first_name %>&nbsp;<%= @person.last_name %><br/>
+				   <b>Birthdate:</b>&nbsp;<%= @person.birthdate.strftime("%m/%d/%Y") %><br/>
 				<div class="divider"></div>
-				<p>Your numerology number is <%= @birth_path_num %></p>
+				   <br/>Your numerology number is <%= @birth_path_num %></p>
 				<br/><br/>
 				<p><%= @message %></p>
 			</div>

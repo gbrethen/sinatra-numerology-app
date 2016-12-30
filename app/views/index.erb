@@ -1,4 +1,14 @@
-<div class="well">
-    <p>Your numerology number is <%= @birth_path_num %></p>
-    <p><%= @message %></p>
+<div class="row">
+	<div class="col-lg-6 col-md-6">
+		<div class="panel panel-default">
+			<div class="panel-heading">Numerology</div>
+			<div class="panel-body">
+				<p><img id="planet" src="../images/planets/<%= @birth_path_num %>.png"/>
+				   <br/>Your numerology number is <%= @birth_path_num %>
+                </p>
+				<br/><br/><br/><br/>
+				<p><%= @message %></p>
+			</div>
+		</div>
+	</div>
 </div>
