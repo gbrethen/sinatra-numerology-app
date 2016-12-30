@@ -3,3 +3,9 @@ body{
     background-image: url("../images/numerology.png");
     background-repeat: no-repeat;
 }
+
+#people_table{
+    box-shadow: 2px 2px 2px #999;
+    -moz-box-shadow: 2px 2px 2px #999;
+    -webkit-box-shadow: 2px 2px 2px #999;
+}
